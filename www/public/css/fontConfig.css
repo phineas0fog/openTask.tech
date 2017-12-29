@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "robotoReg";
+    src: url('../font/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "oswaldReg";
+    src: url('../font/oswald/Oswald-Regular.ttf');
+}

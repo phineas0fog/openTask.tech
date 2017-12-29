@@ -1,0 +1,27 @@
+input, .form input, select, .form select  {
+    border: none;
+    width: 100%;
+    background-color: #252525;
+    height: 4vh;
+    width: 100%;
+    border-bottom: 1px solid #555555;
+    font-size: 1em;
+    color: white;
+}
+
+input::placeholder, .form input::placeholder, textarea::placeholder, .form textarea::placeholder {
+    color: #aaaaaa;
+}
+
+textarea, .form textarea {
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border: 1px solid #555555;
+    color: white;
+}
+
+input[type='text']:hover, input[type='text']:focus, .form input[type='text']:hover, .form input[type='text']:focus, .form textarea:hover, .form textarea:focus {
+    background-color: #353535;
+    border-bottom: 1px solid #aaaaaa;
+}

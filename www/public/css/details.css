@@ -1,0 +1,57 @@
+.details {
+    display: none;
+    position: fixed;
+    top: 30vh;
+    left: 30vw;
+    width: 25vw;
+    background-color: #353535;
+}
+
+.show {display:block;}
+
+.closebtn {
+    margin-left: 15px;
+    color: #c40000;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #f00;
+    font-size: 40px;
+}
+
+.detContent {
+    padding-top: 0vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detContent .detLabl {
+    width: 40%;
+    color: #aaa;
+}
+
+.detContent .detVal {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+li {
+    padding-bottom: 1vh;
+    display: flex;
+    align-items: baseline;
+}
+
+.detTitle { grid-row: 1}
+.detDesc { grid-row: 2}
+.detAdd { grid-row: 3}

@@ -1,0 +1,9 @@
+# %{REQUEST_FILENAME} est la partie dynamique de l'url (apres le .tld)
+# ici on autorise donc la réécriture si la cible n'est ni un dossier ni un fichier
+# confie toute la gestion des routes au site et plus a httpd
+# la dernière ligne redirige toutes les URLs vers l'index.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

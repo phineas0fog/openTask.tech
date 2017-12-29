@@ -1,0 +1,25 @@
+{
+    "name": "opentask",
+    "version": "1.0.0",
+    "description": "a open source and material task manager",
+    "main": "index.php",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://framagit.org/phineas0fog/openTask.git"
+    },
+    "author": "yann surzur & evrard van espen",
+    "license": "AGPL-3.0",
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-contrib-cssmin": "^2.2.1",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-contrib-uglify": "^3.2.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-phpcbf": "^0.1.1",
+        "grunt-phpcs": "^0.4.0",
+        "load-grunt-tasks": "^3.5.2"
+    }
+}

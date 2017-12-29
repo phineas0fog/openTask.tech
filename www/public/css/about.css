@@ -1,0 +1,41 @@
+.mainAbout {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100vw;
+}
+
+.container {
+    font-size: 1.5em;
+    grid-column: 2;
+    margin-top: 5vh;
+    padding: 1vw;
+    text-align: justify;
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 1vh;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+}
+
+.container p {
+    padding-bottom: 3vh;
+}
+
+.container li {
+    margin-top: 0.8vh;
+}
+
+.fancyP:first-letter {
+    color: #aaaaaa;
+    float:left;
+    font-size: 300%;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 1vh;
+}

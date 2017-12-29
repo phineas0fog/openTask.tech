@@ -1,0 +1,29 @@
+.cookieDis {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 98%;
+    background-color: #303030;
+    opacity: 0.5;
+    color: white;
+    font-size: 1em;
+    padding: 2vh 1vw 2vh 1vw;
+}
+
+.hidden {display: none}
+
+.closebtn {
+    margin-left: 15px;
+    color: red;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #f00;
+    font-size: 40px;
+}

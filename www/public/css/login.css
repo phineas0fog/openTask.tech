@@ -1,0 +1,46 @@
+#login {
+    justify-content: center;
+    width: 100%;
+    grid-column: 2;
+}
+
+.loginForm {
+    grid-column: 2;
+    margin-top: 20vh;
+    padding: 2vw;
+    width: 100%;
+}
+
+.loginForm h1 {
+    margin-top: 0vh;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+    width: 100%;
+}
+
+li {
+    padding-top: 1vh;
+    width: 100%;
+}
+
+li input[type='submit'] {
+    width: 50%;
+}
+
+input[type="submit"] {
+    background-color: #FFC107;
+    color: black;
+    font-weight: bold;
+    height: 4vh;
+    margin: auto;
+    width: 33%;
+}
+
+.recover {
+    color: #B71C1C;
+}

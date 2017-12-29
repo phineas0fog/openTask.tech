@@ -1,0 +1,52 @@
+.header {
+    align-items: center;
+    background-color: #202020;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.lHead {
+    font-size: 5vh;
+}
+
+.header .lHead img {
+    filter: drop-shadow(1px 1px 2px #303030);
+    height: 8vh;
+    animation: roll 1.5s;
+}
+
+.header .rHead .menu {
+    filter: drop-shadow(1px 1px 2px #303030);
+    height: 5vh;
+    opacity: 0.5;
+}
+
+#sandwich {
+    position: absolute;
+    right: 1vw;
+    top: 2.2vh;
+    opacity: 0;
+}
+
+#sandwich:hover {
+    opacity: 1;
+}
+
+#lines {
+    position: absolute;
+    right: 1vw;
+    top: 2.2vh;
+}
+
+@keyframes roll {
+    0%{
+        transform: rotate(0deg);
+        margin-left: -5vw;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,74 @@
+.error {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    padding-top: 10vh;
+}
+
+.error big {
+    font-size: 9em;
+    filter: drop-shadow(1px 1px 2px #777);
+}
+
+.error h1 {
+    margin-top: 10vh;
+    font-size: 4em;
+    filter: drop-shadow(1px 1px 2px #777);
+}
+
+.error h2 {
+    margin-top: 10vh;
+    font-size: 1.5em;
+    filter: drop-shadow(1px 1px 2px #777);
+}
+
+.hidden {display: none}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #f00;
+    font-size: 40px;
+}
+
+.errorNotifContainer {
+    width: 100vw;
+    margin: auto;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: dropDown 0.5s;
+}
+
+.errorNotif {
+    z-index: 1000;
+    font-size: 2em;
+    color: white;
+    background-color: #dd0000;
+    box-shadow: 1px 1px 2px black;
+    padding: 1vh;
+    margin: 1vh;
+    width: 33vw;
+    margin-left: 33vw;
+}
+
+@keyframes dropDown {
+    0%{
+        top: -10vh;
+    }
+    100%{
+        top: 0;
+    }
+}

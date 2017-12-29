@@ -1,0 +1,44 @@
+@import "variables.css";
+
+.btn-small {
+    text-align: center;
+    padding: 0.4vh;
+    font-weight: bold;
+    margin: 0.5vh;
+    overflow: hidden;
+    border: none;
+    transition: .15s;
+}
+
+.btn-details {
+    grid-column: 1;
+    background-color: var(--color1);
+    color: white;
+}
+
+.btn-delete {
+    grid-column: 3;
+    background-color: var(--color2);
+    color: white;
+}
+
+.btn-small:hover {
+    transform: scale(1.1);
+}
+
+.btn-change {
+    grid-column: 4;
+    background-color: var(--color4);
+    color: white;
+}
+
+.btn-submit input[type="submit"] {
+    background-color: var(--color4);
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    margin-top: 1vh;
+    margin-left: 66%;
+    width: 33%;
+    font-size: 1em;
+}

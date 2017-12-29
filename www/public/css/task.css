@@ -1,0 +1,63 @@
+@import "variables.css";
+
+.taskHead {
+    margin-bottom: 0.5vh;
+    display: grid;
+    grid-template-columns: 80% 15% 1fr;
+    align-items: center;
+}
+
+.taskHead .title {
+    grid-column: 1;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.taskHead small {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #aaaaaa;
+}
+
+.taskHead .maxDate {
+    grid-column: 2;
+    color: var(--color2);
+}
+
+.taskHead .priority {
+    grid-column: 3;
+    height: 25px;
+    width: 25px;
+}
+
+.taskHead .prioPop {
+    display: none;
+}
+
+.taskHead .priority:hover + .prioPop {
+    display: block;
+    position: absolute;
+    margin-left: 17vw;
+    margin-top: 1vh;
+    background: #353535;
+}
+
+.prLow { background-color: var(--color1); }
+.prNor { background-color: var(--color4); }
+.prImp { background-color: var(--color3); }
+.prCri { background-color: var(--color2); }
+
+.task {
+    text-align: justify;
+}
+
+.btnArea {
+    margin-top: 2vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.task descr {
+    word-wrap:normal;
+}

@@ -1,0 +1,26 @@
+:root {
+    --color1.oldOri: #1e88e5;
+    --color2.oldOri: #f44336;
+    --color3.oldOri: #ff9800;
+    --color4.oldOri: #4caf50;
+
+    --color1.200: #90CAF9;
+    --color2.200: #EF9A9A;
+    --color3.200: #FFE082;
+    --color4.200: #A5D6A7;
+
+    --color1.300: #64B5F6;
+    --color2.300: #E57373;
+    --color3.300: #FFD54F;
+    --color4.300: #81C784;
+
+    --color1.500: #2196F3;
+    --color2.500: #F44336;
+    --color3.500: #FFC107;
+    --color4.500: #4CAF50;
+
+    --color1: #42A5F5;
+    --color2: #EF5350;
+    --color3: #FFCA28;
+    --color4: #66BB6A;
+}

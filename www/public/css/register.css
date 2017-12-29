@@ -1,0 +1,38 @@
+@import "variables.css";
+
+#message {
+    display:none;
+    color: #fff;
+    position: absolute;
+    left: 65vw;
+    top: 40vh;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 15px;
+}
+
+#message h2 {
+    font-size: 20px;
+}
+
+.valid {
+    color: var(--color4);
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+.invalid {
+    color: var(--color2);
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}

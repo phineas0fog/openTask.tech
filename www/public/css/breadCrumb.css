@@ -1,0 +1,39 @@
+@import "variables.css";
+
+.bar {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    height: 4vh;
+}
+
+#addHead, #addHeadBot {
+    grid-column: 1;
+    background-color: var(--color1);
+}
+#todoHead, #todoHeadBot {
+    grid-column: 2;
+    background-color: var(--color2);
+}
+#doingHead, #doingHeadBot {
+    grid-column: 3;
+    background-color: var(--color3);
+}
+#doneHead, #doneHeadBot {
+    grid-column: 4;
+    background-color: var(--color4);
+}
+
+.colHead {
+    padding-top: 1vh;
+    color: white;
+    font-weight: bold;
+}
+
+
+.colHeadBot {
+    height: 1vh;
+    margin-right: 1vw;
+    border-right: 1vw;
+}

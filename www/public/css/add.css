@@ -1,0 +1,86 @@
+@import "variables.css";
+
+.rows2 {
+    grid-template-rows: 5vh 5vh;
+}
+
+.addTask form ul {
+    display: grid;
+    grid-template-rows: 5vh 10vh 5vh 5vh 5vh 5vh;
+    padding: 1vh;
+}
+
+.addTask input, .addTask select, .addTask textarea {
+    border: none;
+}
+
+.addTask li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    text-align: left;
+}
+
+.addTask p {
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.addTask li input[name="title"] {
+    background-color: #252525;
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.addTask li textarea {
+    background-color: #252525;
+    border: none;
+    grid-row: 2;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    font-family: 'oswaldReg';
+}
+
+.addTask li select[name="priority"], .addTask li select[name="project"] {
+    background-color: #252525;
+    grid-row: 3;
+    height: 100%;
+    vertical-align: sub;
+    width: 100%;
+    font-size: 1em;
+}
+
+.addTask li input[name="maxDate"] {
+    background-color: #252525;
+    grid-row: 4;
+    height: 100%;
+    vertical-align: sub;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'oswaldReg';
+}
+
+.addTask li input[name="extLink"] {
+    background-color: #252525;
+    grid-row: 5;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+}
+
+.addTask li input[type="submit"] {
+    background-color: var(--color4);
+    color: white;
+    font-weight: bold;
+    grid-row: 5;
+    height: 100%;
+    margin-left: 66%;
+    width: 33%;
+    font-size: 1em;
+}

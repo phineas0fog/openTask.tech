@@ -1,0 +1,29 @@
+<?php
+	/**
+	 * Database configuration file
+	 *
+	 * 'base' -> database name
+	 * 'user' -> username to use to access to database
+	 * 'pass' -> password for this user
+	 */
+	$confDyn['db']['base'] = '';
+	$confDyn['db']['user'] = '';
+	$confDyn['db']['pass'] = '';
+
+    /**
+     * This config param allow to conserve the value of the "true" website root
+     * because this one change with the rewrite engine.
+     * This allows to compensate with the path problem of apache (relative/absolute)
+     */
+
+    $confDyn['ROOT_URL'] = 'http://localhost/Sites/openTask/www';
+
+	/**
+	 * Allows to specify the state of website.
+	 * @options : 'dev' or 'prod'
+	 * 'dev' load the "normal" css and js files (public/js, public/css)
+	 * 'prod' load the "minified" css and js (public/min/js, public/min/css)
+	 */
+	$confDyn['deploy'] = 'dev';
+
+	return $confDyn;
