@@ -1,9 +1,6 @@
 ![banner](Graphics/banner.png)
 
-<span style="color: #1e88e5; font-size: 100px">OP</span>
-<span style="color: #4caf50; font-size: 100px">EN</span>
-<span style="color: #ff9800; font-size: 100px">TA</span>
-<span style="color: #f44336; font-size: 100px">SK</span>
+# [www.opentask.tech](www.opentask.tech)
 
 Dépot du projet de programmation web coté serveur de deuxième année.
 
